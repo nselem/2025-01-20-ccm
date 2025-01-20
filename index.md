@@ -3,7 +3,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "Centro de Ciencias Matemáticas, UNAM"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+venue: "Centro de Ciencias Matemáticas(CCM-UNAM)"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "Auditorio del Centro de Ciencias Matemáticas (CCM) de la UNAM Campus Morelia, Antigua Carretera a Pátzcuaro # 8701 Col. Ex Hacienda San José de la Huerta Morelia, Michoacán, México"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "mx"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "es"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
