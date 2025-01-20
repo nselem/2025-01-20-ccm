@@ -33,7 +33,7 @@ carpentry: "incubator"
 # dc-image:         for Data Carpentry Image Processing
 # swc-inflammation: for Software Carpentry based on the inflammation dataset
 # swc-gapminder:    for Software Carpentry based on the Gapminder dataset
-curriculum: "FIXME"
+curriculum: "dc-genomics"
 
 # If there is both an R and python official version of a curriculum
 # (as listed on https://software-carpentry.org/lessons/ and
@@ -60,7 +60,7 @@ title: "Taller de programación científica y análisis de datos biológicos"
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-incubator_lesson_site: "https://carpentries-incubator.github.io/metagenomics-workshop/"
+incubator_lesson_site: "https://carpentries-lab.github.io/metagenomics-workshop/"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
 incubator_pre_survey: "https://carpentries.typeform.com/to/wi32rS?slug=2025-01-20-ccm&typeform-source=nselem.github.io"
