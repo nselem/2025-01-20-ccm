@@ -12,8 +12,9 @@
 UTiliza el archivo FASTA con errores y el archivo tabulado (`genes.tsv`). 
 1. Eliminen retornos de carro del archivo FASTA.
 2. Sustituyan todos los IDs de secuencias para añadir un prefijo "Sample_".
-3. Extraigan la primera y la tercera columna del archivo `genes.tsv`.
-4. Combinen estos datos en un archivo llamado `final_output.tsv`.
+3. Convierte el fasta multilinea en unilinea
+4. Extraigan la primera y la tercera columna del archivo `genes.tsv`.
+5. Combinen estos datos en un archivo llamado `final_output.tsv`.
 
 ---
 ### ** Parte 0: Prepara tu ambiente
