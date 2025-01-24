@@ -8,6 +8,13 @@
 3. Aprender utilidades avanzadas de **Bash** para procesar archivos de texto.
 
 ---
+### ** Parte 0: Prepara tu ambiente
+Crea una carpeta "PracticandoMiBash"
+Descarga los archivos
+https://raw.githubusercontent.com/nselem/2025-01-20-ccm/refs/heads/gh-pages/_episodes/problematic.fasta
+https://raw.githubusercontent.com/nselem/2025-01-20-ccm/refs/heads/gh-pages/_episodes/problematic_genes.tsv
+Cambia permisos para que no se puedan escribir
+Haz una copia y trabaja con tu copia
 
 ### **Parte 1: Perl - Manipulación de Archivos de Texto**
 #### **Ejemplo práctico: Limpiar archivos FASTA**
