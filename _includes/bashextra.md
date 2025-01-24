@@ -8,6 +8,14 @@
 3. Aprender utilidades avanzadas de **Bash** para procesar archivos de texto.
 
 ---
+### **Ejercicio Final: Mini Proyecto**
+UTiliza el archivo FASTA con errores y el archivo tabulado (`genes.tsv`). 
+1. Eliminen retornos de carro del archivo FASTA.
+2. Sustituyan todos los IDs de secuencias para añadir un prefijo "Sample_".
+3. Extraigan la primera y la tercera columna del archivo `genes.tsv`.
+4. Combinen estos datos en un archivo llamado `final_output.tsv`.
+
+---
 ### ** Parte 0: Prepara tu ambiente
 - Crea una carpeta "PracticandoMiBash"
 - Descarga los archivos  
@@ -146,14 +154,6 @@ En bioinformática, a menudo necesitamos limpiar formatos de archivos. Por ejemp
 
 ---
 
-### **Ejercicio Final: Mini Proyecto**
-Dales un archivo FASTA con errores y un archivo tabulado (`genes.tsv`). Pídeles que:
-1. Eliminen retornos de carro del archivo FASTA.
-2. Sustituyan todos los IDs de secuencias para añadir un prefijo "Sample_".
-3. Extraigan la primera y la tercera columna del archivo `genes.tsv`.
-4. Combinen estos datos en un archivo llamado `final_output.tsv`.
-
----
 
 ### **Conclusión**
 Esta clase les proporcionará herramientas clave para trabajar con archivos de texto de manera avanzada y eficiente. La combinación de **Perl**, **VI**, y utilidades avanzadas de **Bash** los prepara para tareas comunes en bioinformática, como limpiar, transformar, y procesar grandes cantidades de datos biológicos.
