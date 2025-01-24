@@ -29,10 +29,10 @@ https://raw.githubusercontent.com/nselem/2025-01-20-ccm/refs/heads/gh-pages/_epi
 En bioinformática, a menudo necesitamos limpiar formatos de archivos. Por ejemplo, eliminar caracteres innecesarios como retornos de carro (`\r`), que pueden aparecer al mover archivos entre sistemas (Windows y Linux).
 
 1. **Ejercicio con Perl:**
-   - **Problema:** Tienes un archivo llamado `sequences.fasta` con retornos de carro (`\r`) que causan problemas.
+   - **Problema:** Tienes un archivo llamado `problematic.fasta` con retornos de carro (`\r`) que causan problemas.
    - **Solución con Perl:**
      ```bash
-     perl -p -i -e 's/\r//g' sequences.fasta
+     perl -p -i -e 's/\r//g' problematic.fasta
      ```
 
    - **Explicación del comando:**
@@ -49,11 +49,11 @@ En bioinformática, a menudo necesitamos limpiar formatos de archivos. Por ejemp
 2. **Otros ejemplos útiles de Perl:**
    - Eliminar líneas vacías:
      ```bash
-     perl -p -i -e 's/^\s*$//g' sequences.fasta
+     perl -p -i -e 's/^\s*$//g' prblematic.fasta
      ```
    - Añadir un prefijo a los IDs de un archivo FASTA:
      ```bash
-     perl -p -i -e 's/^>(.+)$/>\|prefix_\1/g' sequences.fasta
+     perl -p -i -e 's/^>(.+)$/>\|prefix_\1/g' problematic.fasta
      ```
 
 ---
@@ -148,7 +148,7 @@ En bioinformática, a menudo necesitamos limpiar formatos de archivos. Por ejemp
 
 2. **Buscar líneas que contengan una secuencia específica en un archivo FASTA:**
    ```bash
-   grep -B 1 "ATCG" sequences.fasta
+   grep -B 1 "ATCG" problematic.fasta
    ```
    - `-B 1`: Muestra también la línea anterior (por ejemplo, el encabezado FASTA).
 
